@@ -15,7 +15,7 @@ env:
 
 jobs:
   build-release-cross:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       RUST_BACKTRACE: full
     strategy:
